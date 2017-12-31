@@ -1,0 +1,105 @@
+src/com/dao/UserDao.java:14:	Each class should declare at least one constructor
+src/com/dao/UserDao.java:14:	The class 'UserDao' has a Cyclomatic Complexity of 12 (Highest = 11).
+src/com/dao/UserDao.java:14:	The class 'UserDao' has a Modified Cyclomatic Complexity of 12 (Highest = 11).
+src/com/dao/UserDao.java:14:	The class 'UserDao' has a Standard Cyclomatic Complexity of 12 (Highest = 11).
+src/com/dao/UserDao.java:14:	headerCommentRequirement Required
+src/com/dao/UserDao.java:15:	To avoid mistakes add a comment at the beginning of the log field if you want a default access modifier
+src/com/dao/UserDao.java:15:	Use explicit scoping instead of the default package private level
+src/com/dao/UserDao.java:15:	Variables that are final and static should be all capitals, 'log' is not all capitals.
+src/com/dao/UserDao.java:15:	fieldCommentRequirement Required
+src/com/dao/UserDao.java:20:	The method 'getUserId' has a Cyclomatic Complexity of 11.
+src/com/dao/UserDao.java:20:	The method 'getUserId' has a Modified Cyclomatic Complexity of 11.
+src/com/dao/UserDao.java:20:	The method 'getUserId' has a Standard Cyclomatic Complexity of 11.
+src/com/dao/UserDao.java:20:	publicMethodCommentRequirement Required
+src/com/dao/UserDao.java:25:	Local variable 'dbutil' could be declared final
+src/com/dao/UserDao.java:27:	Found 'DD'-anomaly for variable 'con' (lines '27'-'34').
+src/com/dao/UserDao.java:28:	Avoid variables with short names like ps
+src/com/dao/UserDao.java:28:	Found 'DD'-anomaly for variable 'ps' (lines '28'-'36').
+src/com/dao/UserDao.java:29:	Avoid variables with short names like rs
+src/com/dao/UserDao.java:29:	Found 'DD'-anomaly for variable 'rs' (lines '29'-'42').
+src/com/dao/UserDao.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/com/dao/UserDao.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/com/dao/UserDao.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/com/dao/UserDao.java:42:	Potential violation of Law of Demeter (object not created locally)
+src/com/dao/UserDao.java:44:	Potential violation of Law of Demeter (object not created locally)
+src/com/dao/UserDao.java:49:	Potential violation of Law of Demeter (object not created locally)
+src/com/dao/UserDao.java:51:	Potential violation of Law of Demeter (object not created locally)
+src/com/dao/UserDao.java:71:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/dao/UserDao.java:77:	Avoid using if statements without curly braces
+src/com/dao/UserDao.java:80:	Potential violation of Law of Demeter (object not created locally)
+src/com/dao/UserDao.java:82:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/dao/UserDao.java:84:	Avoid printStackTrace(); use a logger call instead.
+src/com/dao/UserDao.java:86:	Avoid using if statements without curly braces
+src/com/dao/UserDao.java:89:	Potential violation of Law of Demeter (object not created locally)
+src/com/dao/UserDao.java:91:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/dao/UserDao.java:93:	Avoid printStackTrace(); use a logger call instead.
+src/com/dao/UserDao.java:95:	Avoid using if statements without curly braces
+src/com/dao/UserDao.java:98:	Potential violation of Law of Demeter (object not created locally)
+src/com/dao/UserDao.java:100:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/dao/UserDao.java:102:	Avoid printStackTrace(); use a logger call instead.
+src/com/login/UserLogin.java:6:	Avoid unused imports such as 'javax.servlet.RequestDispatcher'
+src/com/login/UserLogin.java:8:	Avoid unused imports such as 'javax.servlet.annotation.WebServlet'
+src/com/login/UserLogin.java:13:	Avoid unused imports such as 'com.dao.UserDao'
+src/com/login/UserLogin.java:27:	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/login/UserLogin.java:27:	It is a good practice to call super() in a constructor
+src/com/login/UserLogin.java:32:	Comment is too large: Line too long
+src/com/login/UserLogin.java:34:	Parameter 'request' is not assigned and could be declared final
+src/com/login/UserLogin.java:34:	Parameter 'response' is not assigned and could be declared final
+src/com/login/UserLogin.java:40:	Comment is too large: Line too long
+src/com/login/UserLogin.java:42:	Parameter 'request' is not assigned and could be declared final
+src/com/login/UserLogin.java:42:	Parameter 'response' is not assigned and could be declared final
+src/com/login/UserLogin.java:45:	Avoid variables with short names like pw
+src/com/login/UserLogin.java:45:	Local variable 'pw' could be declared final
+src/com/login/UserLogin.java:47:	Local variable 'userId' could be declared final
+src/com/login/UserLogin.java:48:	Local variable 'password' could be declared final
+src/com/login/UserLogin.java:49:	Avoid if (x != y) ..; else ..;
+src/com/login/UserLogin.java:49:	Use equals() to compare strings instead of '==' or '!='
+src/com/login/UserLogin.java:49:	Use equals() to compare strings instead of '==' or '!='
+src/com/login/UserLogin.java:51:	Local variable 'user' could be declared final
+src/com/login/UserLogin.java:52:	Local variable 'login' could be declared final
+src/com/login/UserLogin.java:53:	Local variable 'result' could be declared final
+src/com/login/UserLogin.java:55:	Avoid unnecessary comparisons in boolean expressions
+src/com/login/UserLogin.java:56:	Avoid using if...else statements without curly braces
+src/com/login/UserLogin.java:56:	Potential violation of Law of Demeter (object not created locally)
+src/com/login/UserLogin.java:59:	Potential violation of Law of Demeter (object not created locally)
+src/com/login/UserLogin.java:63:	Potential violation of Law of Demeter (object not created locally)
+src/com/login/UserLogin.java:68:	Avoid using if...else statements without curly braces
+src/com/login/UserLogin.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/com/service/LoginService.java:6:	Each class should declare at least one constructor
+src/com/service/LoginService.java:6:	headerCommentRequirement Required
+src/com/service/LoginService.java:7:	publicMethodCommentRequirement Required
+src/com/service/LoginService.java:10:	Local variable 'dao' could be declared final
+src/com/service/LoginService.java:17:	Avoid unnecessary if..then..else statements when returning booleans
+src/com/service/LoginService.java:17:	Potential violation of Law of Demeter (object not created locally)
+src/com/service/LoginService.java:17:	Potential violation of Law of Demeter (object not created locally)
+src/com/service/LoginService.java:17:	Potential violation of Law of Demeter (object not created locally)
+src/com/service/LoginService.java:17:	Potential violation of Law of Demeter (object not created locally)
+src/com/service/LoginService.java:19:	A method should have only one exit point, and that should be the last statement in the method
+src/com/service/LoginService.java:19:	Avoid using if...else statements without curly braces
+src/com/service/LoginService.java:22:	Avoid using if...else statements without curly braces
+src/com/util/DBUtil.java:7:	headerCommentRequirement Required
+src/com/util/DBUtil.java:8:	It is somewhat confusing to have a field name matching the declaring class name
+src/com/util/DBUtil.java:8:	fieldCommentRequirement Required
+src/com/util/DBUtil.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/util/DBUtil.java:9:	Perhaps 'con' could be replaced by a local variable.
+src/com/util/DBUtil.java:9:	fieldCommentRequirement Required
+src/com/util/DBUtil.java:14:	Use block level rather than method level synchronization
+src/com/util/DBUtil.java:14:	publicMethodCommentRequirement Required
+src/com/util/DBUtil.java:27:	publicMethodCommentRequirement Required
+src/com/util/DBUtil.java:39:	Avoid printStackTrace(); use a logger call instead.
+src/com/util/DBUtil.java:43:	Avoid printStackTrace(); use a logger call instead.
+src/com/util/DBUtil.java:45:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/util/DBUtil.java:47:	Avoid printStackTrace(); use a logger call instead.
+src/com/vo/UserBean.java:3:	headerCommentRequirement Required
+src/com/vo/UserBean.java:4:	fieldCommentRequirement Required
+src/com/vo/UserBean.java:7:	Document empty constructor
+src/com/vo/UserBean.java:7:	publicMethodCommentRequirement Required
+src/com/vo/UserBean.java:10:	Parameter 'name' is not assigned and could be declared final
+src/com/vo/UserBean.java:10:	Parameter 'pswd' is not assigned and could be declared final
+src/com/vo/UserBean.java:10:	publicMethodCommentRequirement Required
+src/com/vo/UserBean.java:16:	publicMethodCommentRequirement Required
+src/com/vo/UserBean.java:20:	Parameter 'name' is not assigned and could be declared final
+src/com/vo/UserBean.java:20:	publicMethodCommentRequirement Required
+src/com/vo/UserBean.java:24:	publicMethodCommentRequirement Required
+src/com/vo/UserBean.java:28:	Parameter 'pswd' is not assigned and could be declared final
+src/com/vo/UserBean.java:28:	publicMethodCommentRequirement Required
