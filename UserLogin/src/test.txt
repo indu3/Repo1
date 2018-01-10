@@ -1,2 +1,1 @@
-Editing file
-In Master
+Editing file in new branch
